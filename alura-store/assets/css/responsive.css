@@ -1,0 +1,22 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 920px) {
+    .destaques__secundario {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__principal,
+    .destaques__categorias {
+        grid-column: 1/5;
+    }
+
+    .populares__contenido {
+        flex-direction: column;
+    }
+
+    .populares__card {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+}
